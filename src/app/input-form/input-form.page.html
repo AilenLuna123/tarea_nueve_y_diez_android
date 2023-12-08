@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Input Form
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label position="floating">Nombre</ion-label>
+    <ion-input [(ngModel)]="nombre"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Apellido</ion-label>
+    <ion-input [(ngModel)]="apellido"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Latitud</ion-label>
+    <ion-input [(ngModel)]="latitud"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Longitud</ion-label>
+    <ion-input [(ngModel)]="longitud"></ion-input>
+  </ion-item>
+
+  <ion-button expand="full" (click)="mostrarMapa()">Siguiente</ion-button>
+</ion-content>
