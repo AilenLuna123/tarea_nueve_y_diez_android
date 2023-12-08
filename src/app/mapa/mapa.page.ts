@@ -29,7 +29,7 @@ export class MapaPage implements OnInit {
   async ionViewDidEnter() {
     // Cargar la API de Google Maps
     const googleMapsScript = document.createElement('script');
-    googleMapsScript.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyCqL2tpxeU5adyQFWjepHcQ9g2Vf5P8LvE&callback=initializeMap`;
+    googleMapsScript.src = `https://maps.googleapis.com/maps/api/js?key=AIzeSyCqL2tpxeU5adyQFWjepHcQ9g2Vf5P8LvE&callback=initializeMap`;
     googleMapsScript.async = true;
     googleMapsScript.defer = true;
     document.body.appendChild(googleMapsScript);
